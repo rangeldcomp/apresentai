@@ -1,0 +1,12 @@
+<div class="container">
+      <form action="/navegate/open_sala" method="POST" class="card card-sm">
+            </br>
+            <h1>Selecione uma Sala...</h1>
+            </br>
+            {{#each post}}
+
+            <input type="submit" class="btn btn-info" name="ID" value="{{id}}  {{nomesala}}"> </input>
+            </br>
+            {{/each}}
+      </form>
+</div>
